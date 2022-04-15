@@ -1,0 +1,101 @@
+.form-container {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #95a0a7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 12px 12px 2px 1px rgba(255, 224, 179, 1);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.form-title {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #2a414f;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group label {
+  display: block;
+  padding: 0px 0px 5px 5px;
+}
+.input-group input {
+  width: 415px;
+  height: 55px;
+  border: 1px solid #95a0a7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.form-submit {
+  width: 415px;
+  height: 55px;
+  background-color: rgba(255, 153, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form-submit:hover {
+  background-color: rgba(255, 153, 0, 0.5);
+}
+.form-text {
+  text-align: center;
+  margin-top: 1px;
+}
+.form-link {
+  color: rgba(255, 153, 0, 1);
+  text-decoration: none;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.or div {
+  border: 1px solid rgba(149, 160, 167, 1);
+  background-color: rgba(149, 160, 167, 1);
+  width: 145px;
+  height: 0px;
+}
+.or p {
+  margin-top: -12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(149, 160, 167, 1);
+}
+.google-sign-in-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 415px;
+  height: 55px;
+  border: 1px solid rgba(149, 160, 167, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-sign-in-btn img {
+  width: 32px;
+}
+.google-sign-in-btn p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #2a414f;
+  margin-left: 8px;
+}
